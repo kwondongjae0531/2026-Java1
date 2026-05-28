@@ -15,7 +15,7 @@ public class Rabbit {
         this.shape = shape;
     }
 
-    // getter/setter
+    // getter / setter
     public String getShape() {
         return shape;
     }
@@ -40,24 +40,27 @@ public class Rabbit {
         this.yPos = yPos;
     }
 
-    // 위치 설정 메서드
+    // 위치 설정
     public void setLocation(int xPos, int yPos) {
         this.xPos = xPos;
         this.yPos = yPos;
     }
 
-    public void printInfo() {
-        System.out.printf("%s 모양의 토끼는 (%d, %d) 좌표에 위치하고 있다.\n", shape, xPos, yPos);
-    }
-
-}
-
-
-// x축으로 10씩 오른쪽으로 이동하는 메소드
+    // 오른쪽 10 이동
     public void moveRightTen() {
         xPos += 10;
     }
-// x축으로 10씩 왼쪽으로 이동하는 메소드
-    public void moveLeftTen(){
+
+    // 왼쪽 10 이동
+    public void moveLeftTen() {
         xPos -= 10;
     }
+
+    // 정보 출력
+    public void printInfo() {
+        System.out.printf(
+                "%s 모양의 토끼는 (%d, %d) 좌표에 위치하고 있다.\n",
+                shape, xPos, yPos
+        );
+    }
+}
