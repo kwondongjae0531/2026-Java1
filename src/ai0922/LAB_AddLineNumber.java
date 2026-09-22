@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Lab_AddLineNumber {
+public class LAB_AddLineNumber {
     public static void main(String[] args) {
         try {
             // File을 읽어오기 위한 입력스트림(inputStream) 생성
