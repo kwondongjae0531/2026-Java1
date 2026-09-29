@@ -18,6 +18,6 @@ public class ThrowsTest2 {
 
                 System.out.println(line);
             }
-
+//
     }
 }
