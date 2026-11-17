@@ -1,8 +1,7 @@
 
 package ai1027;
 
-import center.CenterFrame2;
-import center.SetFrame;
+import book_management.view.center.SetFrame;
 
 import javax.swing.*;
 import java.awt.*;

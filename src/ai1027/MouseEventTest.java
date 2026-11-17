@@ -1,10 +1,9 @@
 
 package ai1027;
 
-import center.SetFrame;
+import book_management.view.center.SetFrame;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
